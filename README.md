@@ -16,4 +16,3 @@ Il est impossible de requêter les valeurs comme on le fait habituellement avec 
 * Les listes de redis sont des listes liées : Les principales commandes commencent en général par L comme List et sont RPUSH et LPUSH, LRANGE, LINDEX, LLEN.
 * Une hash permet de stocker dans un même enregistrement plusieurs couples de clef/valeurs : On y trouve HSET, HGET, HLEN, mais aussi HGETALL pour obtenir tous les couples clef-valeur, HINCRBY pour incrémenter un compteur dans la hash, HKEYS et HVALS pour obtenir toutes les clefs ou valeurs et HDEL pour faire le ménage.
 * Les Sets sont des collections d'objets non ordonnées : Les commandes commencent toutes avec un S comme Set, parmi celles-ci on trouve SADD pour ajouter une valeur à un set, SCARD pour obtenir la taille d'un set, et surtout les commandes SINTER, SUNION, SDIFF qui permettent respectivement d'obtenir l'intersection, l'union et la différences entre 2 sets.
-* 
